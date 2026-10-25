@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="registration.html">Registration</a> |
+        <a href="student list.html">Student List</a> |
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form>
+        Name:
+        <input type="text">
+        <br><br>
+
+        Email:
+        <input type="email">
+        <br><br>
+
+        Password:
+        <input type="password">
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Playing
+        <input type="checkbox"> Music
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
+```.html">Student List</a>
+    </nav>
+
+    <hr>
+
+    <form onsubmit="event.preventDefault(); alert('Registration submitted!');">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        Gender:<br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="course">Course:</label><br>
+        <select id="course" name="course">
+            <option value="">Select Course</option>
+            <option>HTML</option>
+            <option>SQL</option>
+            <option>Java</option>
+            <option>Python</option>
+            <option>Testing</option>
+        </select><br><br>
+
+        Skills:<br>
+        <input type="checkbox" id="manual" name="skills" value="Manual Testing">
+        <label for="manual">Manual Testing</label><br>
+        <input type="checkbox" id="sql" name="skills" value="SQL">
+        <label for="sql">SQL</label><br>
+        <input type="checkbox" id="selenium" name="skills" value="Selenium">
+        <label for="selenium">Selenium</label><br>
+        <input type="checkbox" id="java" name="skills" value="Java">
+        <label for="java">Java</label><br>
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="playwright" name="skills" value="Playwright">
+        <label for="playwright">Playwright</label><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea><br><br>
+
+        <label for="file">Upload File:</label><br>
+        <input type="file" id="file" name="file"><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
